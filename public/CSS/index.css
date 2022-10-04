@@ -1,0 +1,94 @@
+<style>
+
+.navbar{
+  border-bottom: 1px solid rgb(12, 46, 184);
+}
+
+.newsletter-subscribe {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
+}
+
+.newsletter-subscribe p {
+  color:#2d2d37;
+  line-height:1.5;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2px;
+  font-size:16px;
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:#2d2d37!important;
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+}
+
+.newsletter-subscribe .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom:25px;
+}
+
+.newsletter-subscribe form {
+  justify-content:center;
+}
+
+.newsletter-subscribe form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+  font-family: Montserrat, sans-serif;
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+  font-family: Montserrat, sans-serif;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color:#ed5457 !important;
+  color:#fff;
+  outline:none !important;
+}
+
+.footer{
+  border-top: 1px solid rgb(12, 46, 184);
+}
+
+</style>
