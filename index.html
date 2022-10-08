@@ -6,21 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- retrieve bootstrap -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- retrieve bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- retrieve css -->
+  <link rel="stylesheet" href="public/CSS/index.css">
 
-   <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
 
-    <!-- retrieve css -->
-    <link rel="stylesheet" href="public/CSS/index.css">
-
-    <!-- retrieve font family-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <!-- retrieve font family-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
      <!-- set icon -->
-  <link rel="icon" type="image/png" href="public/graphics/logo.png" />
+  <link rel="icon" type="image/png" href="public/Graphics/logo.png" />
 </head>
 
 
@@ -28,29 +28,268 @@
 <!DOCTYPE html>
 <html>
 
-<body>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <a class="navbar-brand" href="#myPage">
+          <img src="public/Graphics/logo.png" width="25" height="25">
+        </a>
+
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">SUBSCRIBE</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#faq">F.A.Q</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="https://practice.kareo.com/dripanddip" target="_blank" title="Schedule">SCHEDULE</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<div id="" class="jumbotron text-center">
+                <img src="public/Graphics/dripanddip.svg" alt="logo" width="100%" height="400">
+                <br><br><br>
+                <h4> IV THERAPY&nbsp; |&nbsp;  LOS ANGELES, CA</h4>
+                <br><a href="https://practice.kareo.com/dripanddip" target="_blank" title="Schedule"><button type="button" class="btn btn-danger">SCHEDULE</button></a>
+           </div> 
  
-    <div class="newsletter-subscribe">
-        <div class="container">
-            <div class="intro">
-                <img src="public/Graphics/dripanddip.svg" alt="logo" width="100%" height="400" class="rounded mx-auto d-block">
-                <p class="text-center"> IV THERAPY&nbsp; |&nbsp;  FALL 2022&nbsp;  |&nbsp;  LOS ANGELES, CA</p>
-            </div>
 
-            <form class="form-inline" action= "https://formsubmit.co/ae9e059ee399cef0097a54423c3fee7e" method="POST">
+<div id="about" class="container-fluid text-center bg-blue">
+<h3>SIGN UP!</h3>
+<h5> Subscribe to our mailing to stay informed with the latest details of our services, locations, and any exciting announcements!</h5>
+<br>
+ <form class="form-inline" action= "https://formsubmit.co/ae9e059ee399cef0097a54423c3fee7e" method="POST">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">SUBSCRIBE</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center break">
+  <h2>SERVICES</h2>
+  <h4>IV DRIPS</h4>
+  <br>
+  <div class="row slideanim">
+
+    <div class="col-sm-6">
+    <img src="public/Graphics/IV_DRIP.svg" width="1000" height="850" claas="hp" alt="Card image"></img>
+    </div>
 
 
-              <!-- Success --> 
+    <div class="col-sm-4">
+    <br><br>
 
-              <input type="hidden" name="_next" value="https://dripanddip.org/index_successful.html">
+    <button class="accordion">Hydration</button>
+    <div class="panel">
+    <p class="panel-content"> 1L  Lactated Ringers </p>
+   </div>
 
-                <div class="form-group">
-                    <input class="form-control" type="email" name="Email" placeholder="Your Email" required></div>
-                    <div class="form-group"><button class="btn btn-primary" type="submit" >Subscribe </button>
-                    </div>
-                </form>
-            </div>
+    <button class="accordion">NAD</button>
+    <div class="panel">
+    <p class="panel-content">NAD + 1L  Lactated Ringers </p>
+   </div>
+
+   <button class="accordion">Glow</button>
+    <div class="panel">
+    <p class="panel-content">Glutathione + 1L  Lactated Ringers </p>
+   </div>
+
+    <button class="accordion">Energy</button>
+    <div class="panel">
+    <p class="panel-content">Vitamin B12 <br>Taurine</p>
+    </div>
+
+    <button class="accordion">Beauty</button>
+    <div class="panel">
+    <p class="panel-content">Vitamin B12 <br> Lysine <br> Biotin <br> Vitamin C </p>
+    </div>
+
+    <button class="accordion">Recovery</button>
+    <div class="panel">
+    <p class="panel-content">Vitamin B12 <br> Magnesium <br> Zinc</p>
+    </div>
+
+    <button class="accordion">Hangover</button>
+    <div class="panel">
+    <p class="panel-content">Niacin <br> Vitamin B12 <br> Magnesium <br> Pepcid <br> Zofran <br>Toradol</p>
+    </div>
+
+    <button class="accordion">Jet Lag</button>
+    <div class="panel">
+    <p class="panel-content">Vitamin B12 <br> Lysine <br> Biotin <br> Magnesium <br> Zinc <br>Niacin <br> Taurine </p>
+    </div>
+
+     <button class="accordion">Vitamin Injections</button>
+    <div class="panel">
+    <p class="panel-content">Vitamin B12 <br>CoQ10</p>
+    </div>
+
+</div>
+</div>
+</div>
+
+  
+
+   <!-- Team Class --> 
+        <div id="team" class="container-fluid text-center break">
+        <h2>TEAM</h2>
+        <br><br>
+         
+         <div class="row slideanim">
+        
+        <div class="col-sm-6">
+        <div class="card">
+        <img src="public/Headshots/ingrid.png" class="k-headshot" alt="Card image"> 
+        <h4><br>Ingrid Egocheaga</h4>
+        <p class="p">Founder,&nbsp; BSN</p>
+          <div class="card-body">
+            <div class="card-img-overlay">
+            <center><h5 class="card-title and h2"></h5></center>
+            <p class="card-text"></p>
+          </div>
+          </div>
         </div>
-    </body>
+      </div>
 
-    </html>
+      <div class="col-sm-6">
+        <div class="card">
+        <img src="public/Headshots/adam-johnson.png" class="k-headshot"  alt="Card image"></img>
+        <h4><br>Adam Johnson</h4>
+          <p class="p">Medical Director, &nbsp; MD</p>
+          <div class="card-body">
+            <div class="card-img-overlay">
+            <center><h5 class="card-title and h2"></h5></center>
+            <p class="card-text"></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+
+  <!-- F.A.Q Class --> 
+
+   <div id="faq" class="container-fluid" style="margin-top: 20px;">
+    <center>
+    <h2>FREQUENTLY ASKED QUESTIONS</h2></center>
+    <br><br>
+
+  <button class="accordion">What is IV therapy?</button>
+  <div class="panel">
+    <p class="panel-content">Intravenous hydration therapy delivers fluid infused with micro and macronutrients. </p>
+  </div>
+    
+   <button class="accordion">Is this a safe treatment?</button>
+  <div class="panel">
+    <p class="panel-content"><strong>Yes</strong>, intravenous therapy with nutrients has no relationship to potentially dangerous IV therapy with powerful pharmaceutical drugs. </p>
+  </div>
+
+  <button class="accordion">How long does receiving a service take?</button>
+  <div class="panel">
+    <p class="panel-content">The average IV appointment takes 40min to an hour. We also have timed IV drips that can take 1 to 4 hours.</p>
+  </div>
+
+  <button class="accordion">How frequently should I receive these services?</button>
+  <div class="panel">
+    <p class="panel-content">At DRIP AND DIP, physicians evaluate each patient on a case-by-case basis and prior to each treatment. </p>
+  </div>
+
+
+  <button class="accordion">Why choose DRIP AND DIP as a provider?</button>
+  <div class="panel">
+    <p class="panel-content">At DRIP AND DIP, the drips are tailored and formulated during your visit. This will help ensure every patient has a great and safe experience. Our Medical Director is accessible to patients via telehealth should you have any questions or concerns prior and after treatment. </p>
+  </div>
+
+  <!-- Animation Script for F.A.Q --> 
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>  
+
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h3 class="text-center">CONTACT</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-5">
+      <h5>Contact us and we'll get back to you within 24 hours.</h5>
+      <h5><span class="glyphicon glyphicon-map-marker"></span> Los Angeles, US</h5>
+      <h5><span class="glyphicon glyphicon-phone"></span> +1 (424) 326-3244</h5>
+      <h5><span class="glyphicon glyphicon-envelope"></span> info@dripanddip.org</h5>
+    </div>
+
+
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+
+        <form class="form-inline" action= "https://formsubmit.co/info@dripanddip.org" method="POST">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button></form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+<!-- Image of location/map -->
+
+<footer class="container-fluid text-center bg-grey">
+  <div class="collapse navbar-collapse" id="myNavbar">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+</div>
+  <h5>© dripanddip.org. All rights reserved.</a></h5>
+</footer>
+
+
+</body>
+</html>
