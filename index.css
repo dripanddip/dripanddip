@@ -1,94 +1,152 @@
 <style>
 
-.navbar{
-  border-bottom: 1px solid rgb(12, 46, 184);
-}
+ body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
 
-.newsletter-subscribe {
-  color:#313437;
-  background-color:#fff;
-  padding:50px 0;
-}
+   h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
 
-.newsletter-subscribe p {
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+   font-family: Montserrat, sans-serif;
+   letter-spacing: 2px;
+  }  
+
+  h5 {
+  color: white;
+  line-height:1.5;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2px;
+  font-size:16px;
+  }
+
+  p {
   color:#2d2d37;
   line-height:1.5;
   font-family: Montserrat, sans-serif;
   letter-spacing: 2px;
   font-size:16px;
+
+  }
+
+
+  .bg-grey{
+    background-color: #525461;
+  }
+
+  .bg-blue{
+    background-color: #07a0ae;
+  }
+
+  .break { 
+    border-bottom: 1px solid; 
+    color: whitesmoke;
 }
 
-.newsletter-subscribe h2 {
-  font-size:24px;
-  font-weight:bold;
-  margin-bottom:25px;
-  line-height:1.5;
-  padding-top:0;
-  margin-top:0;
-  color:#2d2d37!important;
-  letter-spacing: 1px;
+  .jumbotron {
+    background-color: white;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: black;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #525461 !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .k-headshot{
+    width:50%; 
+    border-radius: 25px;
+}
+
+  .hp  {
+ float: right;    
+ margin: 0 15px 0 0;
+text-align: left
+}
+
+.btn_primary{
+  background-color: #efa801;
+}
+
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
   font-family: Montserrat, sans-serif;
 }
 
-.newsletter-subscribe .intro {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto 25px;
+.active, .accordion:hover {
+  background-color: #efa801;
 }
 
-.newsletter-subscribe .intro p {
-  margin-bottom:25px;
+
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
-.newsletter-subscribe form {
-  justify-content:center;
+.panel-content 
+{
+    padding: 10px 20px;
+    text-align: left;
 }
 
-.newsletter-subscribe form .form-control {
-  background:#eff1f4;
-  border:none;
-  border-radius:3px;
-  box-shadow:none;
-  outline:none;
-  color:inherit;
-  text-indent:9px;
-  height:45px;
-  margin-right:10px;
-  min-width:250px;
-  font-family: Montserrat, sans-serif;
-}
-
-.newsletter-subscribe form .btn {
-  padding:16px 32px;
-  border:none;
-  background:none;
-  box-shadow:none;
-  text-shadow:none;
-  opacity:0.9;
-  text-transform:uppercase;
-  font-weight:bold;
-  font-size:13px;
-  letter-spacing:0.4px;
-  line-height:1;
-  font-family: Montserrat, sans-serif;
-}
-
-.newsletter-subscribe form .btn:hover {
-  opacity:1;
-}
-
-.newsletter-subscribe form .btn:active {
-  transform:translateY(1px);
-}
-
-.newsletter-subscribe form .btn-primary {
-  background-color:#ed5457 !important;
-  color:#fff;
-  outline:none !important;
-}
-
-.footer{
-  border-top: 1px solid rgb(12, 46, 184);
-}
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #efa801;
+  }
+  
 
 </style>
