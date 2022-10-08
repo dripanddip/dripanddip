@@ -73,12 +73,26 @@
 <h3>SIGN UP!</h3>
 <h5> Subscribe to our mailing to stay informed with the latest details of our services, locations, and any exciting announcements!</h5>
 <br>
- <form class="form-inline" action= "https://formsubmit.co/ae9e059ee399cef0097a54423c3fee7e" method="POST">
-    <div class="input-group">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-danger">SUBSCRIBE</button></form>
-      </div>
+
+       <form class="form-inline" action= "https://formsubmit.co/ingrid@dripanddip.org" method="post">
+
+              <!-- Honeypot --> 
+
+              <input type="text" name="_honey" style="display: none;">
+
+              <!-- Disable Captcha --> 
+
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- Success --> 
+
+              <input type="hidden" name="_next" value="dripanddip.org/index_successful.html">
+
+                <div class="input-group">
+                    <input type="email" class="form-control" size="50" placeholder="Email Address"required></div>
+                    <div class="form-group"><button class="btn btn-danger" type="submit" >Subscribe </button>
+                    </div>
+
     </div>
 </div>
 
