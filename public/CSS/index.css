@@ -40,6 +40,16 @@
   font-size:16px;
   }
 
+  h6 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 2px;
+  }  
+
   p {
   color:#2d2d37;
   line-height:1.5;
@@ -64,8 +74,8 @@
 }
 
   .jumbotron {
-    background-color: white;
-    color: #fff;
+    background-color: black;
+    color: white;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
   }
