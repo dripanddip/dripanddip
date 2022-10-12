@@ -68,6 +68,11 @@
     background-color: #07a0ae;
   }
 
+
+  .bg-black{
+    background-color: black;
+  }
+
   .break { 
     border-bottom: 1px solid; 
     color: whitesmoke;
@@ -177,6 +182,7 @@
     border-radius: 0;
     font-family: Montserrat, sans-serif;
   }
+
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
   }
