@@ -1,7 +1,6 @@
 <style>
 
  body {
-    font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
   }
@@ -50,6 +49,7 @@
   letter-spacing: 2px;
   }  
 
+  
   h7 {
     font-size: 24px;
     text-transform: uppercase;
@@ -62,10 +62,18 @@
   color:#2d2d37;
   line-height:1.5;
   font-family: Montserrat, sans-serif;
-  letter-spacing: 2px;
-  font-size:16px;
-
+  font-size:15px;
   }
+
+  text {
+  color:#A5A5A5;
+  font-size:14px;
+  line-height:1.5;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left ;
+}
+
 
 
   .bg-grey{
